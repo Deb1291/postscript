@@ -153,10 +153,10 @@ Available subroutines:
                                                                 
 Color format
 -------------
-⋅⋅* `'r'` : Red
-⋅⋅* `'k'` : Black
-⋅⋅* `'y'` : Yellow
-⋅⋅* `'g'` : Green
-⋅⋅* `'w'` : White
-⋅⋅* `'b'` : Blue
-⋅⋅* `'(r,g,b)'`: For RGB format where `r`,`g`,`b` are three numbers between 0 and 1.
+  * `'r'` : Red
+  * `'k'` : Black
+  * `'y'` : Yellow
+  * `'g'` : Green
+  * `'w'` : White
+* `'b'` : Blue
+* `'(r,g,b)'`: For RGB format where `r`,`g`,`b` are three numbers between 0 and 1.
