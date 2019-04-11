@@ -2,17 +2,19 @@
 Fortran Module to generate postscript
 
 Available subroutines:
+======================
     
-    (1) Circle(centre,radius,[linewidth,edgecolor,fill,color])
+** (1) Circle(centre,radius,[linewidth,edgecolor,fill,color]) **
 
-        Arguments            Type                           Information
-        -------------       -------------------------       -----------------------------------------------------
-        centre              integer/real/real(kind=8)       array of 2 elements
-        radius              integer/real/real(kind=8)
-        linewidth           real                            (optional), default: according to present canvas size
-        edgecolor           character                       (optional), see coloring format below, default: 'k'
-        fill                logical                         (optional), default: .False.
-        color               character                       (optional), see coloring format below, default: 'k'
+
+        Arguments     |       Type                        |   Information
+        -------------------------------------------------------------------------------------------
+        centre        |      integer/real/real(kind=8)    |   array of 2 elements
+        radius        |      integer/real/real(kind=8)    |
+        linewidth     |      real                         |   (optional), default: according to present canvas size
+        edgecolor     |      character                    |   (optional), see coloring format below, default: 'k'
+        fill          |      logical                      |   (optional), default: .False.
+        color         |      character                    |   (optional), see coloring format below, default: 'k'
 
 
 
