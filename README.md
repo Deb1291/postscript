@@ -1,10 +1,8 @@
-# postscript
-Fortran Module to generate postscript
+# Fortran Module to generate postscript
 
 Available subroutines:
-======================
-    
-** Circle(centre,radius,[linewidth,edgecolor,fill,color]) **
+----------------------
+1. Circle(centre,radius,*linewidth,edgecolor,fill,color*)
 
 
       |  Arguments     |       Type                        |   Information                                            |
@@ -18,7 +16,7 @@ Available subroutines:
 
 
 
-    (2) Rectangle(xy,dx,dy,[angle,linewidth,edgecolor,fill,color])
+2. Rectangle(xy,dx,dy,[angle,linewidth,edgecolor,fill,color])
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
