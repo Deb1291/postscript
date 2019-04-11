@@ -159,4 +159,4 @@ Color format
 4. `'g'` : Green
 5. `'w'` : White
 6. `'b'` : Blue
-8. `'(r,g,b)'`: For RGB format where r,g,b are three numbers between 0 and 1.
+8. `'(r,g,b)'`: For RGB format where `r`,`g`,`b` are three numbers between 0 and 1.
