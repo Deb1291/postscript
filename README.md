@@ -16,7 +16,7 @@ Available subroutines:
 
 
 
-2. Rectangle(xy,dx,dy,[angle,linewidth,edgecolor,fill,color])
+2. Rectangle(xy,dx,dy,*angle,linewidth,edgecolor,fill,color*)
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
@@ -31,7 +31,7 @@ Available subroutines:
 
 
 
-    (3) RegularPolygon(centre,numVertices,radius,[angle,linewidth,edgecolor,fill,color])
+3. RegularPolygon(centre,numVertices,radius,*angle,linewidth,edgecolor,fill,color*)
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
@@ -46,7 +46,7 @@ Available subroutines:
 
 
 
-    (4) Polygon(x,y,[linewidth,edgecolor,fill,color])
+4. Polygon(x,y,*linewidth,edgecolor,fill,color*)
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
@@ -59,7 +59,7 @@ Available subroutines:
 
 
 
-    (5) Curve(x,y,[linewidth,linecolor,fill,color,closepath])
+5. Curve(x,y,*linewidth,linecolor,fill,color,closepath*)
                  * to draw Bezier Curve
 
         Arguments            Type                           Information
@@ -74,7 +74,7 @@ Available subroutines:
 
 
 
-    (6) Plot(x,y,[linewidth,color,marker,markersize,markeredgewidth,markeredgecolor,markerfill,markercolor])
+6. Plot(x,y,*linewidth,color,marker,markersize,markeredgewidth,markeredgecolor,markerfill,markercolor*)
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
@@ -94,7 +94,7 @@ Available subroutines:
 
 
 
-    (7) Text(position,texts,[fontsize,font,alignment,angle,edgecolor,edgewidth,fill,color])
+7. Text(position,texts,*fontsize,font,alignment,angle,edgecolor,edgewidth,fill,color*)
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
@@ -112,8 +112,7 @@ Available subroutines:
 
 
 
-    (8) Axis([lim,xticks,yticks,xticklabel,yticklabel,grid,xlabel,ylabel,opposites,
-                                         linewidth,color,gridwidth,gridcolor,fontsize,font])
+8. Axis(*lim,xticks,yticks,xticklabel,yticklabel,grid,xlabel,ylabel,opposites,linewidth,color,gridwidth,gridcolor,fontsize,font*)
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
@@ -137,7 +136,7 @@ Available subroutines:
 
 
 
-    (9) Savefig([filename,scale,aspect_ratio,page,orientation])
+9. Savefig(*filename,scale,aspect_ratio,page,orientation*)
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
@@ -151,15 +150,4 @@ Available subroutines:
                                                                 default: 'Letter'
         orientation         character                       (optional), Available: 'Potrait', 'Landscape'
                                                                 default: 'Potrait'
-
-
-
-
-
-
-
-
-
-
-
-
+                                                                
