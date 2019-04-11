@@ -103,7 +103,7 @@ Available subroutines:
       |  fontsize        |    real                        |    (_optional_), `default`: according to present canvas size    |
       |  font            |    character                   |    (_optional_), `default`: `'Helvetica'`                       |
       |  alignment       |    character                   |    (_optional_), Available: `'no'`,`'left'`,`'centre'`,`'right'`  |
-      |                  |                                |        `default`: 'no'                                          |
+      |                  |                                |        `default`: `'no'`                                        |
       |  angle           |    real                        |    (_optional_), in degrees, `default`: `0`                     |
       |  edgecolor       |    character                   |    (_optional_), see coloring format below , `default`: `'k'`   |
       |  edgewidth       |    real                        |    (_optional_), `default`: according to present canvas size    |
@@ -145,9 +145,18 @@ Available subroutines:
      |  scale           |    real                        |    (_optional_), array of 2 elements                                |
      |                  |                                |        `default`: according to present canvas size                  |
      |  aspect_ratio    |    character                   |    (_optional_), Available: `'auto'`, `'stretch'`, ratio of y to x  |
-     |                  |                                |        `default`: 'auto'                                            |
+     |                  |                                |        `default`: `'auto'`                                          |
      |  page            |    character                   |    (_optional_), Available: `'A4'`,`'Letter'`,`'(_width_,_height_)'`  |
      |                  |                                |        `default`: `'Letter'`                                        |
      |  orientation     |    character                   |    (_optional_), Available: `'Potrait'`, `'Landscape' `             |
      |                   |                               |      `default`: `'Potrait'`                                         |
                                                                 
+Color format
+-------------
+`'r'` : Red
+`'k'` : Black
+`'y'` : Yellow
+`'g'` : Green
+`'w'` : White
+`'b'` : Blue
+`'(r,g,b)'`: For RGB format where r,g,b are three numbers between 0 and 1.
