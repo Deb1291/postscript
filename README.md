@@ -9,25 +9,25 @@ Available subroutines:
       |  --------------|-----------------------------------|----------------------------------------------------------|
       |  centre        |      integer/real/real(kind=8)    |   array of 2 elements                                    |
       |  radius        |      integer/real/real(kind=8)    |                                                          |
-      |  linewidth     |      real                         |   (optional), default: according to present canvas size  |
-      |  edgecolor     |      character                    |   (optional), see coloring format below, default: 'k'    |
-      |  fill          |      logical                      |   (optional), default: .False.                           |
-      |  color         |      character                    |   (optional), see coloring format below, default: 'k'    |
+      |  linewidth     |      real                         |   (_optional_), default: according to present canvas size  |
+      |  edgecolor     |      character                    |   (_optional_), see coloring format below, default: 'k'    |
+      |  fill          |      logical                      |   (_optional_), default: .False.                           |
+      |  color         |      character                    |   (_optional_), see coloring format below, default: 'k'    |
 
 
 
 2. Rectangle(xy,dx,dy,*angle,linewidth,edgecolor,fill,color*)
 
-        Arguments            Type                           Information
-        -------------       -------------------------       -----------------------------------------------------
-        xy                  integer/real/real(kind=8)       array of 2 elements,position of bottom left vertex
-        dx                  integer/real/real(kind=8)
-        dy                  integer/real/real(kind=8)
-        angle               real                            (optional), in degrees, default: 0 
-        linewidth           real                            (optional), default: according to present canvas size
-        edgecolor           character                       (optional), see coloring format below, default: 'k'
-        fill                logical                         (optional), default: .False.
-        color               character                       (optional), see coloring format below, default: 'k'
+      |  Arguments       |     Type                        |   Information
+      |  -------------   |    -------------------------    |   -----------------------------------------------------
+      |  xy              |    integer/real/real(kind=8)    |   array of 2 elements,position of bottom left vertex
+      |  dx              |    integer/real/real(kind=8)
+      |  dy              |    integer/real/real(kind=8)
+      |  angle           |    real                            (_optional_), in degrees, default: 0 
+      |  linewidth       |    real                            (_optional_), default: according to present canvas size
+      |  edgecolor       |    character                       (_optional_), see coloring format below, default: 'k'
+      |  fill            |    logical                         (_optional_), default: .False.
+      |  color           |    character                       (_optional_), see coloring format below, default: 'k'
 
 
 
@@ -38,11 +38,11 @@ Available subroutines:
         centre              integer/real/real(kind=8)       array of 2 elements,position of bottom left vertex
         numVertices         integer
         radius              integer/real/real(kind=8)
-        angle               real                            (optional), in degrees, default: 0 
-        linewidth           real                            (optional), default: according to present canvas size
-        edgecolor           character                       (optional), see coloring format below, default: 'k'
-        fill                logical                         (optional), default: .False.
-        color               character                       (optional), see coloring format below, default: 'k'
+        angle               real                            (_optional_), in degrees, default: 0 
+        linewidth           real                            (_optional_), default: according to present canvas size
+        edgecolor           character                       (_optional_), see coloring format below, default: 'k'
+        fill                logical                         (_optional_), default: .False.
+        color               character                       (_optional_), see coloring format below, default: 'k'
 
 
 
@@ -52,10 +52,10 @@ Available subroutines:
         -------------       -------------------------       -----------------------------------------------------
         x                   integer/real/real(kind=8)       array containing x values of vertices
         y                   integer/real/real(kind=8)       array containing y values of vertices
-        linewidth           real                            (optional), default: according to present canvas size
-        edgecolor           character                       (optional), see coloring format below, default: 'k'
-        fill                logical                         (optional), default: .False.
-        color               character                       (optional), see coloring format below, default: 'k'
+        linewidth           real                            (_optional_), default: according to present canvas size
+        edgecolor           character                       (_optional_), see coloring format below, default: 'k'
+        fill                logical                         (_optional_), default: .False.
+        color               character                       (_optional_), see coloring format below, default: 'k'
 
 
 
@@ -66,11 +66,11 @@ Available subroutines:
         -------------       -------------------------       -----------------------------------------------------
         x                   integer/real/real(kind=8)       array containing x values of ver
         y                   integer/real/real(kind=8)       array containing y values of ver
-        linewidth           real                            (optional), default: according to prese
-        linecolor           character                       (optional), see coloring format below, 
-        fill                logical                         (optional), default: .False.
-        color               character                       (optional), see coloring format below, 
-        closepath           logical                         (optional), default: .False.
+        linewidth           real                            (_optional_), default: according to prese
+        linecolor           character                       (_optional_), see coloring format below, 
+        fill                logical                         (_optional_), default: .False.
+        color               character                       (_optional_), see coloring format below, 
+        closepath           logical                         (_optional_), default: .False.
 
 
 
@@ -80,17 +80,17 @@ Available subroutines:
         -------------       -------------------------       -----------------------------------------------------
         x                   integer/real/real(kind=8)       array containing x values of vertices
         y                   integer/real/real(kind=8)       array containing y values of vertices
-        linewidth           real                            (optional), default: according to present canvas size
-        color               character                       (optional), see coloring format below, default: 'k'
-        marker              character                       (optional), Available:
+        linewidth           real                            (_optional_), default: according to present canvas size
+        color               character                       (_optional_), see coloring format below, default: 'k'
+        marker              character                       (_optional_), Available:
                                                                 if: 'circle' or 'o' then circular marker 
                                                                 else: the character as it is.
                                                                 default: no marker. 
-        markersize          real                            (optional), default: according to present canvas size
-        markeredgewidth     real                            (optional), default: according to present canvas size
-        markeredgecolor     character                       (optional), see coloring format below, default: 'k'
-        markerfill          logical                         (optional), default: .False.
-        markercolor         character                       (optional), see coloring format below, default: 'k'
+        markersize          real                            (_optional_), default: according to present canvas size
+        markeredgewidth     real                            (_optional_), default: according to present canvas size
+        markeredgecolor     character                       (_optional_), see coloring format below, default: 'k'
+        markerfill          logical                         (_optional_), default: .False.
+        markercolor         character                       (_optional_), see coloring format below, default: 'k'
 
 
 
@@ -100,15 +100,15 @@ Available subroutines:
         -------------       -------------------------       -----------------------------------------------------
         position            integer/real/real(kind=8)       array of 2 elements
         text                character
-        fontsize            real                            (optional), default: according to present canvas size
-        font                character                       (optional), default: 'Helvetica'
-        alignment           character                       (optional), Available: 'no','left','centre','right'. 
+        fontsize            real                            (_optional_), default: according to present canvas size
+        font                character                       (_optional_), default: 'Helvetica'
+        alignment           character                       (_optional_), Available: 'no','left','centre','right'. 
                                                                 default: 'no'
-        angle               real                            (optional), in degrees, default: 0
-        edgecolor           character                       (optional), see coloring format below , default: 'k'
-        edgewidth           real                            (optional), default: according to present canvas size
-        fill                logical                         (optional), default: .False.
-        color               character                       (optional), see coloring format below , default: 'k'
+        angle               real                            (_optional_), in degrees, default: 0
+        edgecolor           character                       (_optional_), see coloring format below , default: 'k'
+        edgewidth           real                            (_optional_), default: according to present canvas size
+        fill                logical                         (_optional_), default: .False.
+        color               character                       (_optional_), see coloring format below , default: 'k'
 
 
 
@@ -116,23 +116,23 @@ Available subroutines:
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
-        lim                 real                            (optional), array of size 4 (left,bottom,right,top)
+        lim                 real                            (_optional_), array of size 4 (left,bottom,right,top)
                                                                 default: according to present canvas size
-        xticks              real                            (optional), array of x values where ticks are to be given
-        yticks              real                            (optional), array of y values where ticks are to be given
-        xticklabel          character                       (optional), array of labels for x ticks
-        yticklabel          character                       (optional), array of labels for y ticks
-        grid                logical                         (optional), default: .FALSE.
-        xlabel              character                       (optional), default: " "
-        ylabel_             character                       (optional), default: " "
-        opposites           logical                         (optional), array of 2 elements, x_opposite and y_opposite
+        xticks              real                            (_optional_), array of x values where ticks are to be given
+        yticks              real                            (_optional_), array of y values where ticks are to be given
+        xticklabel          character                       (_optional_), array of labels for x ticks
+        yticklabel          character                       (_optional_), array of labels for y ticks
+        grid                logical                         (_optional_), default: .FALSE.
+        xlabel              character                       (_optional_), default: " "
+        ylabel_             character                       (_optional_), default: " "
+        opposites           logical                         (_optional_), array of 2 elements, x_opposite and y_opposite
                                                                 default: (/.FALSE.,.FALSE./)
-        linewidth           real                            (optional), default: according to present canvas size
-        color               character                       (optional), see coloring format below , default: 'k'
-        gridwidth           real                            (optional), default: according to present canvas size
-        gridcolor           character                       (optional), see coloring format below , default: 'k'
-        fontsize            real                            (optional), default: according to present canvas size
-        font                character                       (optional), default: 'Helvetica'
+        linewidth           real                            (_optional_), default: according to present canvas size
+        color               character                       (_optional_), see coloring format below , default: 'k'
+        gridwidth           real                            (_optional_), default: according to present canvas size
+        gridcolor           character                       (_optional_), see coloring format below , default: 'k'
+        fontsize            real                            (_optional_), default: according to present canvas size
+        font                character                       (_optional_), default: 'Helvetica'
 
 
 
@@ -140,14 +140,14 @@ Available subroutines:
 
         Arguments            Type                           Information
         -------------       -------------------------       -----------------------------------------------------
-        filename            character                       (optional), default: according to availability of file name
+        filename            character                       (_optional_), default: according to availability of file name
                                                                 in current folder
-        scale               real                            (optional), array of 2 elements
+        scale               real                            (_optional_), array of 2 elements
                                                                 default: according to present canvas size
-        aspect_ratio        character                       (optional), Available: 'auto', 'stretch', ratio of y to x
+        aspect_ratio        character                       (_optional_), Available: 'auto', 'stretch', ratio of y to x
                                                                 default: 'auto'
-        page                character                       (optional), Available: 'A4','Letter','(width,height)'
+        page                character                       (_optional_), Available: 'A4','Letter','(width,height)'
                                                                 default: 'Letter'
-        orientation         character                       (optional), Available: 'Potrait', 'Landscape'
+        orientation         character                       (_optional_), Available: 'Potrait', 'Landscape'
                                                                 default: 'Potrait'
                                                                 
