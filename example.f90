@@ -1,6 +1,5 @@
 program main
-	use ISO_FORTRAN_ENV
-	use draw
+	USE DRAW
 	implicit none
 
 
